@@ -32,13 +32,16 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.2. CREATE USER 'sys_temp'@'%' IDENTIFIED BY 'sys_temp';
 
-1.3. [Задание 1.3] (https://github.com/Markin-AI/12-2/blob/main/img/1-3.png)
+1.3. 
+![Задание 1.3] (https://github.com/Markin-AI/12-2/blob/main/img/1-3.png)
 
 1.4. GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%' WITH GRANT OPTION;
 
-1.5. [Задание 1.5] (https://github.com/Markin-AI/12-2/blob/main/img/1-5.png)
+1.5. 
+![Задание 1.5] (https://github.com/Markin-AI/12-2/blob/main/img/1-5.png)
 
-1.6. [Задание 1.6] (https://github.com/Markin-AI/12-2/blob/main/img/1-6.png)
+1.6. 
+![Задание 1.6] (https://github.com/Markin-AI/12-2/blob/main/img/1-6.png)
 
 1.7. docker exec -it c169bdff6983 mysql -uroot -p
 	 create database sakila;
@@ -46,9 +49,10 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 	 source /var/lib/mysql/sakila-schema.sql;
 	 source /var/lib/mysql/sakila-data.sql;
 
-1.8 [Задание 1.8] (https://github.com/Markin-AI/12-2/blob/main/img/1-8.png)
+1.8 
+![Задание 1.8] (https://github.com/Markin-AI/12-2/blob/main/img/1-8.png)
 
-	[Задание 1.8] (https://github.com/Markin-AI/12-2/blob/main/img/1-8_2.png)
+![Задание 1.8] (https://github.com/Markin-AI/12-2/blob/main/img/1-8_2.png)
 
 ---
 
@@ -63,6 +67,6 @@ customer         | customer_id
 
 ### Решение2
 
-[Задание 2](https://github.com/Markin-AI/12-2/blob/main/img/2-1.png)
+![Задание 2](https://github.com/Markin-AI/12-2/blob/main/img/2-1.png)
 
 ---
