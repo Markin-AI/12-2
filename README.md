@@ -51,7 +51,7 @@ source /var/lib/mysql/sakila-data.sql;
 	 
 1.8. ![Задание 1](https://github.com/Markin-AI/12-2/blob/main/img/1-8.png)
 
-	 ![Задание 1](https://github.com/Markin-AI/12-2/blob/main/img/1-8_2.png)
+	 ![Задание 1](https://github.com/Markin-AI/12-2/blob/main/img/1-8-2.png)
 
 ---
 
