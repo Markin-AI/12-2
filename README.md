@@ -41,13 +41,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.6. ![Задание 1](https://github.com/Markin-AI/12-2/blob/main/img/1-6.png)
 
 1.7  
-	 ```
-	 docker exec -it c169bdff6983 mysql -uroot -p
-	 create database sakila;
-	 use sakila;
-	 source /var/lib/mysql/sakila-schema.sql;
-	 source /var/lib/mysql/sakila-data.sql;
-	 ```
+```
+docker exec -it c169bdff6983 mysql -uroot -p
+create database sakila;
+use sakila;
+source /var/lib/mysql/sakila-schema.sql;
+source /var/lib/mysql/sakila-data.sql;
+```
 	 
 1.8. ![Задание 1](https://github.com/Markin-AI/12-2/blob/main/img/1-8.png)
 
